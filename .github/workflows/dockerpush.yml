@@ -32,7 +32,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: jonathanlangton1/pickmypostcode-auto-win-checker
+          images: jonathanlangton1/betterstack-heartbeat
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
